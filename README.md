@@ -2,7 +2,7 @@
 
 A reference architecture for a fully serverless request/response API on AWS, built around Amazon API Gateway, AWS Lambda, and Amazon DynamoDB, with IAM for access control and Amazon CloudWatch for observability.
 
-![Architecture Diagram](myfirstdiagrm.drawio.png)
+![Architecture Diagram](serverless-lambda-crud-api-architecture.png)
 
 ## What is this?
 
@@ -84,7 +84,8 @@ The observability layer (dashed arrow from Lambda):
 
 | File | Description |
 |------|-------------|
-| `myfirstdiagrm.drawio.png` | Architecture diagram (exported from draw.io) |
+| `serverless-lambda-crud-api-architecture.png` | Architecture diagram (exported from draw.io) |
+| `console-guide/` | Step-by-step AWS Console implementation guide (GUIDE.md), with screenshots and the Lambda source |
 | `README.md` | This document |
 
-The source diagram (`myfirstdiagrm.drawio`) can be edited in [draw.io / diagrams.net](https://www.diagrams.net/) and re-exported as PNG.
+The source diagram (draw.io) can be edited in [draw.io / diagrams.net](https://www.diagrams.net/) and re-exported as PNG.
